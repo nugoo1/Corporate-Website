@@ -1,0 +1,61 @@
+/* Small Devices */
+@media only screen and (max-width: 767px) {
+    .navbar-default {
+        background-color: #fff !important;
+        border-color: #e6e6e6;
+    }
+    .about-iphone img{
+        width: 100%;
+    }
+    .purchase-now .col-md-3 {
+        padding-top: 50px;
+    }
+  
+}
+
+/* Small Devices & Tablets */
+@media only screen and (max-width: 768px) {
+    .header-iphone{
+        display: none;
+    }
+    .feature-iphone{
+        display: none;
+    }
+    .header-text, .header-btns {
+        text-align: center;
+    }
+
+    .header-container {
+        paddin-bottom: 10px
+    }
+    .about-iphone {
+        padding-bottom: 50px;
+
+    }
+    .bountiful{
+        padding-bottom: 50px;
+    }
+    .purchase-now {
+        text-align:center;
+    }
+    .left-feature-item, .right-feature-item {
+        text-align: center;
+        padding: 0;
+    }
+    .left-feature-item-icon, .right-feature-item-icon {
+        position: relative;
+        font-size: 80px;
+        display: inline-block;
+    }
+
+}
+
+/* Medium Devices, Desktop */
+@media only screen and (min-width: 992) {
+    
+}
+
+/* Large Devices, Wide Screen */
+@media only screen and (max-width: 1200px) {
+    
+}
